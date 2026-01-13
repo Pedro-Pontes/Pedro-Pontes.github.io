@@ -875,11 +875,31 @@
                   </div>
 
                   <div class="flex flex-col intersect-once intersect-quarter motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 backdrop-blur bg-white border border-[#ffffff29] dark:bg-slate-900 dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] intersect-no-queue p-6 relative rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
-                     <svg class="h-12 mb-6 w-12" viewBox="0 0 32 32" fill="none">
-                        <path d="M16.003 2L3 9v14l5-2.5v-9l8-4.5 13 7.5v16l-5 2.5v5l8-4V9l-16-7z" fill="#FF6F00"/>
-                        <path d="M11 25.5L3 21v-5l8 4.5v5z" fill="#FF6F00"/>
-                        <path d="M11 13.5L3 9v5l8 4.5v-5z" fill="#FF6F00"/>
-                        <path d="M16 21l-5-2.5v-5l5 2.5v5z" fill="#FF6F00"/>
+                     <svg class="h-12 mb-6 w-12" viewBox="0 0 256 256" fill="none">
+                        <defs>
+                           <linearGradient id="tf-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                           <stop offset="0%" style="stop-color:#FFC107;stop-opacity:1" />
+                           <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+                           </linearGradient>
+                           <linearGradient id="tf-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                           <stop offset="0%" style="stop-color:#FF8F00;stop-opacity:1" />
+                           <stop offset="100%" style="stop-color:#F57C00;stop-opacity:1" />
+                           </linearGradient>
+                           <linearGradient id="tf-grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                           <stop offset="0%" style="stop-color:#F4511E;stop-opacity:1" />
+                           <stop offset="100%" style="stop-color:#E64A19;stop-opacity:1" />
+                           </linearGradient>
+                        </defs>
+                        <!-- Top horizontal bar (yellow) -->
+                        <polygon points="128,0 0,73.14 0,109.71 51.2,82.29 51.2,146.29 128,109.71 204.8,146.29 204.8,36.57" fill="url(#tf-grad1)"/>
+                        <!-- Right vertical bar (orange) -->
+                        <polygon points="204.8,36.57 204.8,146.29 256,118.86 256,73.14" fill="url(#tf-grad2)"/>
+                        <polygon points="204.8,146.29 256,118.86 256,182.86 204.8,219.43" fill="url(#tf-grad2)"/>
+                        <!-- Bottom left block (red-orange) -->
+                        <polygon points="0,182.86 0,219.43 51.2,192 51.2,146.29" fill="url(#tf-grad3)"/>
+                        <!-- Center block (red-orange) -->
+                        <polygon points="51.2,146.29 51.2,192 102.4,164.57 102.4,128" fill="url(#tf-grad3)"/>
+                        <polygon points="102.4,128 102.4,164.57 128,150.86 128,109.71" fill="url(#tf-grad3)"/>
                      </svg>
                      <div class="font-bold text-xl">Tensorflow</div>
                      <p class="text-muted mt-2">Framework used!</p>
@@ -896,7 +916,7 @@
                      <div class="font-bold text-xl">Tensorflow</div>
                      <p class="text-muted mt-2">Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!</p>
                   </div>
-                  
+
                   <div class="flex flex-col intersect-once intersect-quarter motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 backdrop-blur bg-white border border-[#ffffff29] dark:bg-slate-900 dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] intersect-no-queue p-6 relative rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
                      <svg class="text-primary h-12 mb-6 w-12" data-icon="flat-color-icons:document" height="1em" width="1em">
                         <symbol id="ai:flat-color-icons:document" viewBox="0 0 48 48">
