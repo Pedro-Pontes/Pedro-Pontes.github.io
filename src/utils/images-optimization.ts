@@ -1,5 +1,5 @@
 import { getImage } from 'astro:assets';
-import helmetImage from '../assets/images/helmet.jpeg';
+import helmetImage from 'src/assets/images/helmet.jpeg';
 import { transformUrl, parseUrl } from 'unpic';
 
 import type { ImageMetadata } from 'astro';
